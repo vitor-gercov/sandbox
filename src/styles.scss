@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body,
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+body {
+    background: rgb(18, 18, 18);
+}
+
+* {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+header {
+    background: rgb(147, 0, 0);
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+.card {
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    padding: 2.25rem 1.5rem;
+}

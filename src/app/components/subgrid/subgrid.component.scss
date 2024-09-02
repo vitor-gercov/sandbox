@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.colored_column {
+    background-color: rgb(98, 98, 16);
+}
+
+.card {
+    display: grid;
+    grid-column: span 2;
+    grid-template-columns: subgrid;
+}
+
+@media (min-width: 700px) {
+    .grid {
+        grid-template-columns: 2fr 1fr 2fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (min-width: 1500px) {
+    .grid {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}

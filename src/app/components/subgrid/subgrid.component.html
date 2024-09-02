@@ -1,0 +1,15 @@
+<section>
+    <h2>
+        Subgrid
+    </h2>
+    <div class="grid">
+        @for (card of cards; track $index) {
+        <div class="card">
+            <div class="colored_column"></div>
+            <p>
+                {{ card }}
+            </p>
+        </div>
+        }
+    </div>
+</section>
